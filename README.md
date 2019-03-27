@@ -104,6 +104,14 @@ Install Pi-Hole by running this command in the bash shell:
 curl -sSL https://install.pi-hole.net | bash
 ```
 
+Alternatively, clone the repository [GitHub](https://github.com/pi-hole/pi-hole) and run
+```
+sudo apt install git
+git clone --depth 1 https://github.com/pi-hole/pi-hole.git Pi-hole
+cd "Pi-hole/automated install/"
+sudo bash basic-install.sh
+```
+
 You will flow into a series of prompts in a blue screen.
 
 - Choose OK or answer positively for all the prompts until the "Select Protocols" question appears. IPv6 needs to be deselected as shown below: <br><img src="./images/screenshots/16.png" width="281">

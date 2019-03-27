@@ -104,7 +104,7 @@ Install Pi-Hole by running this command in the bash shell:
 curl -sSL https://install.pi-hole.net | bash
 ```
 
-Alternatively, clone the repository [GitHub](https://github.com/pi-hole/pi-hole) and run
+Alternatively, clone their [GitHub](https://github.com/pi-hole/pi-hole) repository and run
 ```
 sudo apt install git
 git clone --depth 1 https://github.com/pi-hole/pi-hole.git Pi-hole

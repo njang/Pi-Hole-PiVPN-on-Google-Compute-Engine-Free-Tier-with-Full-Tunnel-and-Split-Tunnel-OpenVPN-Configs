@@ -148,6 +148,13 @@ Install PiVPN by running this command in the bash shell:
 curl -L https://install.pivpn.io | bash
 ```
 
+Alternatively, clone their [GitHub](https://github.com/pivpn/pivpn) repository and run
+```
+git clone --depth 1 https://github.com/pivpn/pivpn.git Pi-VPN
+cd "Pi-VPN/auto install/"
+sudo bash install.sh
+```
+
 You will flow into a series of prompts in a blue screen. All of the default values are appropriate.
 
 - Choose OK or answer positively for all the prompts until you have to choose an upstream DNS provider. The default answer is Google. Choose **Custom** and set an IP Address of **10.8.0.1** <br><img src="./images/screenshots/custom-dns.png" width="284"><br><img src="./images/screenshots/custom-dns-ip.png" width="284">
